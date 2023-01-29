@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3.3.0
-      - run: docket build -t devops 
+      - run: docket build -t devops .
